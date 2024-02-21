@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Topo from './componentes/Topo';
+import SecaoBaner from './componentes/SecaoBaner';
+import SecaoExperiencia from './componentes/SecaoExperienciaTrabalho';
+import Footer from './componentes/Rodape';
+import { useState } from 'react';
+
+
 
 function App() {
+
+  const [temaEscuro, setTemaEscuro] = useState(false)
+
+  function alterarTema() {
+    setTemaEscuro(!temaEscuro)
+  }
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Topo alterarTema={alterarTema} temaEscuro={temaEscuro}/>
+      <SecaoBaner temaEscuro={temaEscuro}/>
+      <SecaoExperiencia temaEscuro={temaEscuro}/>
+      <Footer temaEscuro={temaEscuro}/>
     </div>
   );
 }

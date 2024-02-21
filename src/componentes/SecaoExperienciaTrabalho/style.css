@@ -1,0 +1,78 @@
+#secaoExperiencia {
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.secao-modo-claro {
+    background-color: #f6f8fc;
+}
+.secao-modo-escuro {
+    background-color: #393838;
+}
+.container-texto-modo-escuro {
+    color: #CCCCCC; 
+}
+.container-texto-modo-claro {
+    color: #393838;
+}
+
+#containerTexto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+#containerTexto h2 {
+    position: relative;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 20px;
+    margin-bottom: 35px;
+}
+#containerTexto h2::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 100px;
+    height: 4px;
+    background-color: #feb633;
+}
+#containerTexto p {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 770px;
+    margin-bottom: 70px;
+}
+.container-texto-modo-claro h2 {
+    color: #32333c;
+}
+.container-texto-modo-claro p {
+    color: #8a8fa3;
+}
+.container-card {
+    display: flex;
+    justify-content: center;
+}
+.limitar-secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .container-card {
+        flex-direction: column;
+    }
+}

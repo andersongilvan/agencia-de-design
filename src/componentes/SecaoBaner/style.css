@@ -1,0 +1,51 @@
+#secao-baner {
+    height: 90vh;
+    padding-top: 90px;
+    display: flex;
+    position: relative;
+}
+#imagemFundo {
+    width: 50%;
+    background-image: url(/src/assets/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+}
+.fundo-modo-claro {
+    background-color: #fff;
+}
+.fundo-modo-escuro {
+    background-color: #252525;
+}
+.texto-secao-baner {
+    width: 50%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fafbfc;
+}
+.texto-secao-baner p {
+    font-size: 12px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    color: #022144;
+}
+.texto-secao-baner h2 {
+    font-size: 3em;
+    font-weight: 500;
+    color: #022144;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #imagemFundo {
+        width: 0;
+    }
+    .texto-secao-baner {
+        width: 100%;
+        text-align: center;
+    }
+}

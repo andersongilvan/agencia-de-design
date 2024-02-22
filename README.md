@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Agência de Design
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link <br>
+https://agencia-de-design-nine.vercel.app/<br><br>
+![alt text](<src/img mobile/mobile (2).png>)
 
-## Available Scripts
 
-In the project directory, you can run:
+Bem-vindo ao repositório do site "Agência de Design" desenvolvido com React!
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **HTML5**: Estrutura base para a construção de páginas web, proporcionando semântica e organização ao conteúdo.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **CSS3**: Estilização avançada para uma apresentação visualmente atraente e responsiva em diferentes dispositivos.
 
-### `npm test`
+- **React (utilizando State Hooks e Props)**: A biblioteca React é ideal para construir interfaces de usuário interativas e eficientes. O uso de State Hooks e Props facilita a manipulação do estado e a comunicação entre componentes, tornando o código mais modular e fácil de entender.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Funcionalidades Destacadas
 
-### `npm run build`
+### Efeito Dark Mode
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Implementamos um elegante efeito Dark Mode no site utilizando variáveis de estado. Este recurso não apenas adiciona um toque estilizado, mas também atende às preferências visuais dos usuários.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Problemas Solucionados
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Organização e Estruturação do Conteúdo (HTML5)**: A utilização do HTML5 ajuda na organização semântica do conteúdo, melhorando a acessibilidade e a compreensão da estrutura da página.
 
-### `npm run eject`
+2. **Estilização Avançada e Responsividade (CSS3)**: O CSS3 permite uma estilização mais avançada, contribuindo para uma experiência de usuário mais agradável. A responsividade garante que o site seja acessível em diferentes dispositivos, resolvendo problemas relacionados à diversidade de telas.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Interatividade e Modularidade (React, State Hooks e Props)**: O uso do React, State Hooks e Props proporciona uma interatividade suave e modularidade ao código, simplificando a gestão do estado da aplicação e a comunicação entre os componentes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Visualização em Diferentes Telas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Incluímos uma variedade de imagens do site em diferentes tamanhos de tela. Confira como o design responsivo se adapta a dispositivos variados:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Tela grande (1920x1080):<br><br>  ![alt text](<src/img mobile/mobile.gif>)<br>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Tablet (768x1024):<br><br> ![alt text](<src/img mobile/mobile (1).png>)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+- Smartphone (375x667):<br><br> ![alt text](<src/img mobile/mobile.png>)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Como Executar o Projeto Localmente
 
-### Analyzing the Bundle Size
+1. Clone este repositório.
+2. Instale as dependências usando `npm install`.
+3. Execute o projeto com `npm start`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contribuições
 
-### Making a Progressive Web App
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorar o projeto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Aproveite explorar a Agência de Design e fique à vontade para entrar em contato caso tenha alguma dúvida ou sugestão!
